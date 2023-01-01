@@ -88,7 +88,7 @@ namespace EcommerceWeb
                                 {
                                     if (ProductIndex < products.Length)
                                     {
-                                        ProductRepository.AddProducts(products, ProductIndex);
+                                        ProductRepository.AddProducts(products, categories, ProductIndex,categoryIndex);
                                         ProductIndex++;
                                     }
                                     else

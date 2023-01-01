@@ -14,6 +14,7 @@ namespace Infrastructure
             Console.WriteLine("-----------Add Category----------\n");
             Console.WriteLine("Enter the Category Name");
             category.CategoryName = Console.ReadLine();
+            
             categories[index] = category;
             Console.WriteLine("Product Added Successfully");
             return categories;
